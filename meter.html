@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Political Meter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Political Meter</h1>
+      <p>We will guess your political stance based on these simple questions!</p>
+      <form id="questions">
+        <div class="form-group">
+          <label for="color">What color do you prefer?</label>
+          <select id="color" class="form-control">
+            <option value="1">Red</option>
+            <option value="2">Green</option>
+            <option value="3">Blue</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>How do you feel about pineapple on pizza?</label>
+        <div class="radio">
+            <label>
+              <input type="radio" name="agreement" value="1" checked>
+              Strongly Disagree
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="agreement" value="2">
+              Nuetral
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="agreement" value="3">
+              Strongly Agree
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="number">Pick a number between 1 and 12</label>
+          <input id="number" type="text">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div id="yourAnswer">
+        <p>You are <span id="result"></span> ! </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+#youranswer {
+  display: none;
+}
+
+.red {
+ color: red;
+ background-color: darkred;
+}
+
+.grey {
+  color: grey;
+  background-color: lightgrey;
+}
+
+.blue {
+  color: blue;
+  background-color: darkblue;
+}
